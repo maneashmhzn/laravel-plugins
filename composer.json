@@ -51,7 +51,7 @@
       "aliases": {
         "Plugin": "Demo\\Plugins\\Facades\\Plugin"
       }
-    },
+    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true
