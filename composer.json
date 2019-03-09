@@ -52,9 +52,6 @@
         "Plugin": "Demo\\Plugins\\Facades\\Plugin"
       }
     },
-    "branch-alias": {
-      "dev-master": "4.0-dev"
-    }
   },
   "minimum-stability": "dev",
   "prefer-stable": true
