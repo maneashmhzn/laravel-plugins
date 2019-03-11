@@ -4,7 +4,7 @@
   "keywords": [
     "plugins",
     "laravel",
-    "Demo",
+    "Maneash",
     "plugin",
     "rad"
   ],
@@ -31,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Demo\\Plugins\\": "src"
+      "Maneash\\Plugins\\": "src"
     },
     "files": [
       "src/helpers.php"
@@ -39,17 +39,17 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Demo\\Plugins\\Tests\\": "tests",
+      "Maneash\\Plugins\\Tests\\": "tests",
       "Plugins\\Recipe\\": "tests/stubs/valid/Recipe"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Demo\\Plugins\\LaravelPluginsServiceProvider"
+        "Maneash\\Plugins\\LaravelPluginsServiceProvider"
       ],
       "aliases": {
-        "Plugin": "Demo\\Plugins\\Facades\\Plugin"
+        "Plugin": "Maneash\\Plugins\\Facades\\Plugin"
       }
     }
   },
