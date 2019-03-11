@@ -17,10 +17,6 @@
 
 `Maneash/laravel-plugins` is a Laravel package which created to manage your large Laravel app using plugins. Plugin is like a Laravel package, it has some views, controllers or models. This package is supported and tested in Laravel 5.
 
-This package is a re-published, re-organised and maintained version of [pingpong/plugins](https://github.com/pingpong-labs/plugins), which isn't maintained anymore. This package is used in [AsgardCMS](https://asgardcms.com/).
-
-With one big added bonus that the original package didn't have: **tests**.
-
 Find out why you should use this package in the article: [Writing modular applications with laravel-plugins](https://nicolaswidart.com/blog/writing-modular-applications-with-laravel-plugins).
 
 ## Install
@@ -56,19 +52,10 @@ By default the plugin classes are not loaded automatically. You can autoload you
 
 **Tip: don't forget to run `composer dump-autoload` afterwards.**
 
-## Documentation
-
-You'll find installation instructions and full documentation on [https://Maneash.com/laravel-plugins/](https://Maneash.com/laravel-plugins/).
-
-## Credits
-
-- [Maneash](https://github.com/Maneash)
-- [gravitano](https://github.com/gravitano)
-- [All Contributors](../../contributors)
 
 ## About Maneash
 
-Maneash is a freelance web developer specialising on the Laravel framework. View all my packages [on my website](https://nicolaswidart.com/projects).
+Maneash is a freelance web developer specialising on the Laravel framework.
 
 
 ## License
