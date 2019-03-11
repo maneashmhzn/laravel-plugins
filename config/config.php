@@ -24,7 +24,7 @@ return [
 
     'stubs' => [
         'enabled' => false,
-        'path' => base_path() . '/vendor/demo/laravel-plugins/src/Commands/stubs',
+        'path' => base_path() . '/vendor/maneash/my-laravel-plugins/src/Commands/stubs',
         'files' => [
             'routes/web' => 'Routes/web.php',
             'routes/api' => 'Routes/api.php',
