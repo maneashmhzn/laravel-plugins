@@ -148,7 +148,7 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'Demo',
+        'vendor' => 'Maneash',
         'author' => [
             'name' => 'Maneash',
             'email' => 'langnagar@gmail.com',
@@ -164,7 +164,7 @@ return [
     */
     'cache' => [
         'enabled' => false,
-        'key' => 'laravel-plugins',
+        'key' => 'my-laravel-plugins',
         'lifetime' => 60,
     ],
     /*
