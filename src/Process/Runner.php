@@ -1,9 +1,9 @@
 <?php
 
-namespace Demo\Plugins\Process;
+namespace Maneash\Plugins\Process;
 
-use Demo\Plugins\Contracts\RepositoryInterface;
-use Demo\Plugins\Contracts\RunableInterface;
+use Maneash\Plugins\Contracts\RepositoryInterface;
+use Maneash\Plugins\Contracts\RunableInterface;
 
 class Runner implements RunableInterface
 {

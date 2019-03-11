@@ -1,8 +1,8 @@
 <?php
 
-namespace Demo\Plugins\Laravel;
+namespace Maneash\Plugins\Laravel;
 
-use Demo\Plugins\FileRepository;
+use Maneash\Plugins\FileRepository;
 
 class LaravelFileRepository extends FileRepository
 {

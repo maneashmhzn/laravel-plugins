@@ -1,10 +1,10 @@
 <?php
 
-namespace Demo\Plugins\Commands;
+namespace Maneash\Plugins\Commands;
 
 use Illuminate\Console\Command;
-use Demo\Plugins\Migrations\Migrator;
-use Demo\Plugins\Traits\MigrationLoaderTrait;
+use Maneash\Plugins\Migrations\Migrator;
+use Maneash\Plugins\Traits\MigrationLoaderTrait;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
@@ -27,7 +27,7 @@ class MigrateRollbackCommand extends Command
     protected $description = 'Rollback the plugins migrations.';
 
     /**
-     * @var \Demo\Plugins\Contracts\RepositoryInterface
+     * @var \Maneash\Plugins\Contracts\RepositoryInterface
      */
     protected $plugin;
 

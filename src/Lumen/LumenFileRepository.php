@@ -1,8 +1,8 @@
 <?php
 
-namespace Demo\Plugins\Lumen;
+namespace Maneash\Plugins\Lumen;
 
-use Demo\Plugins\FileRepository;
+use Maneash\Plugins\FileRepository;
 
 class LumenFileRepository extends FileRepository
 {

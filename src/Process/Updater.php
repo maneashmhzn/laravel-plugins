@@ -1,8 +1,8 @@
 <?php
 
-namespace Demo\Plugins\Process;
+namespace Maneash\Plugins\Process;
 
-use Demo\Plugins\Plugin;
+use Maneash\Plugins\Plugin;
 
 class Updater extends Runner
 {

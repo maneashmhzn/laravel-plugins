@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Contracts;
+namespace Maneash\Plugins\Contracts;
 
 interface RunableInterface
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Demo\Plugins\Commands;
+namespace Maneash\Plugins\Commands;
 
 use Illuminate\Console\Command;
-use Demo\Plugins\Traits\PluginCommandTrait;
+use Maneash\Plugins\Traits\PluginCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 
 class UpdateCommand extends Command
@@ -37,7 +37,7 @@ class UpdateCommand extends Command
             return;
         }
 
-        /** @var \Demo\Plugins\Plugin $plugin */
+        /** @var \Maneash\Plugins\Plugin $plugin */
         foreach ($this->laravel['plugins']->getOrdered() as $plugin) {
             $this->updatePlugin($plugin->getName());
         }

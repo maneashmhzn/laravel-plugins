@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Providers;
+namespace Maneash\Plugins\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

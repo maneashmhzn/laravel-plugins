@@ -1,11 +1,11 @@
 <?php
 
-namespace Demo\Plugins;
+namespace Maneash\Plugins;
 
 use Illuminate\Support\ServiceProvider;
-use Demo\Plugins\Providers\BootstrapServiceProvider;
-use Demo\Plugins\Providers\ConsoleServiceProvider;
-use Demo\Plugins\Providers\ContractsServiceProvider;
+use Maneash\Plugins\Providers\BootstrapServiceProvider;
+use Maneash\Plugins\Providers\ConsoleServiceProvider;
+use Maneash\Plugins\Providers\ContractsServiceProvider;
 
 abstract class PluginsServiceProvider extends ServiceProvider
 {

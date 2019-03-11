@@ -1,11 +1,11 @@
 <?php
 
-namespace Demo\Plugins\Commands;
+namespace Maneash\Plugins\Commands;
 
 use Illuminate\Support\Str;
-use Demo\Plugins\Support\Config\GenerateConfigReader;
-use Demo\Plugins\Support\Stub;
-use Demo\Plugins\Traits\PluginCommandTrait;
+use Maneash\Plugins\Support\Config\GenerateConfigReader;
+use Maneash\Plugins\Support\Stub;
+use Maneash\Plugins\Traits\PluginCommandTrait;
 use Symfony\Component\Console\Input\InputArgument;
 
 class RuleMakeCommand extends GeneratorCommand

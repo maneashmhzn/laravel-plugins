@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Exceptions;
+namespace Maneash\Plugins\Exceptions;
 
 class InvalidAssetPath extends \Exception
 {

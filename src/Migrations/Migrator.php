@@ -1,18 +1,18 @@
 <?php
 
-namespace Demo\Plugins\Migrations;
+namespace Maneash\Plugins\Migrations;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Collection;
-use Demo\Plugins\Plugin;
-use Demo\Plugins\Support\Config\GenerateConfigReader;
+use Maneash\Plugins\Plugin;
+use Maneash\Plugins\Support\Config\GenerateConfigReader;
 
 class Migrator
 {
     /**
      * Pingpong Plugin instance.
      *
-     * @var \Demo\Plugins\Plugin
+     * @var \Maneash\Plugins\Plugin
      */
     protected $plugin;
 
@@ -33,7 +33,7 @@ class Migrator
     /**
      * Create new instance.
      *
-     * @param \Demo\Plugins\Plugin $plugin
+     * @param \Maneash\Plugins\Plugin $plugin
      */
     public function __construct(Plugin $plugin)
     {

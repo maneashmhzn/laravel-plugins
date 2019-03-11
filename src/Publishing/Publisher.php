@@ -1,11 +1,11 @@
 <?php
 
-namespace Demo\Plugins\Publishing;
+namespace Maneash\Plugins\Publishing;
 
 use Illuminate\Console\Command;
-use Demo\Plugins\Contracts\PublisherInterface;
-use Demo\Plugins\Contracts\RepositoryInterface;
-use Demo\Plugins\Plugin;
+use Maneash\Plugins\Contracts\PublisherInterface;
+use Maneash\Plugins\Contracts\RepositoryInterface;
+use Maneash\Plugins\Plugin;
 
 abstract class Publisher implements PublisherInterface
 {
@@ -87,7 +87,7 @@ abstract class Publisher implements PublisherInterface
     /**
      * Get plugin instance.
      *
-     * @return \Demo\Plugins\Plugin
+     * @return \Maneash\Plugins\Plugin
      */
     public function getPlugin()
     {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Demo\Plugins\Laravel;
+namespace Maneash\Plugins\Laravel;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Foundation\ProviderRepository;
 use Illuminate\Support\Str;
-use Demo\Plugins\Plugin as BasePlugin;
+use Maneash\Plugins\Plugin as BasePlugin;
 
 class Plugin extends BasePlugin
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Commands;
+namespace Maneash\Plugins\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;

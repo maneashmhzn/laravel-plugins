@@ -1,14 +1,14 @@
 <?php
 
-namespace Demo\Plugins\Generators;
+namespace Maneash\Plugins\Generators;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command as Console;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Demo\Plugins\FileRepository;
-use Demo\Plugins\Support\Config\GenerateConfigReader;
-use Demo\Plugins\Support\Stub;
+use Maneash\Plugins\FileRepository;
+use Maneash\Plugins\Support\Config\GenerateConfigReader;
+use Maneash\Plugins\Support\Stub;
 
 class PluginGenerator extends Generator
 {
@@ -43,7 +43,7 @@ class PluginGenerator extends Generator
     /**
      * The pingpong plugin instance.
      *
-     * @var \Demo\Plugins\Plugin
+     * @var \Maneash\Plugins\Plugin
      */
     protected $plugin;
 
@@ -182,7 +182,7 @@ class PluginGenerator extends Generator
     /**
      * Get the plugin instance.
      *
-     * @return \Demo\Plugins\Plugin
+     * @return \Maneash\Plugins\Plugin
      */
     public function getPlugin()
     {

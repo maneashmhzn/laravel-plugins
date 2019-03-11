@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Facades;
+namespace Maneash\Plugins\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

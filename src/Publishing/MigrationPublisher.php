@@ -1,8 +1,8 @@
 <?php
 
-namespace Demo\Plugins\Publishing;
+namespace Maneash\Plugins\Publishing;
 
-use Demo\Plugins\Migrations\Migrator;
+use Maneash\Plugins\Migrations\Migrator;
 
 class MigrationPublisher extends AssetPublisher
 {

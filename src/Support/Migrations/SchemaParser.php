@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Support\Migrations;
+namespace Maneash\Plugins\Support\Migrations;
 
 use Illuminate\Contracts\Support\Arrayable;
 

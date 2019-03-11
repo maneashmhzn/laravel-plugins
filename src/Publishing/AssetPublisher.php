@@ -1,8 +1,8 @@
 <?php
 
-namespace Demo\Plugins\Publishing;
+namespace Maneash\Plugins\Publishing;
 
-use Demo\Plugins\Support\Config\GenerateConfigReader;
+use Maneash\Plugins\Support\Config\GenerateConfigReader;
 
 class AssetPublisher extends Publisher
 {

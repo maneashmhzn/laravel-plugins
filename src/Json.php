@@ -1,9 +1,9 @@
 <?php
 
-namespace Demo\Plugins;
+namespace Maneash\Plugins;
 
 use Illuminate\Filesystem\Filesystem;
-use Demo\Plugins\Exceptions\InvalidJsonException;
+use Maneash\Plugins\Exceptions\InvalidJsonException;
 
 class Json
 {

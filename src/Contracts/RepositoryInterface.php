@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Contracts;
+namespace Maneash\Plugins\Contracts;
 
 interface RepositoryInterface
 {
@@ -28,7 +28,7 @@ interface RepositoryInterface
     /**
      * Get plugins as plugins collection instance.
      *
-     * @return \Demo\Plugins\Collection
+     * @return \Maneash\Plugins\Collection
      */
     public function toCollection();
 

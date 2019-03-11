@@ -1,9 +1,9 @@
 <?php
 
-namespace Demo\Plugins\Generators;
+namespace Maneash\Plugins\Generators;
 
 use Illuminate\Filesystem\Filesystem;
-use Demo\Plugins\Exceptions\FileAlreadyExistException;
+use Maneash\Plugins\Exceptions\FileAlreadyExistException;
 
 class FileGenerator extends Generator
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins;
+namespace Maneash\Plugins;
 
 use Illuminate\Container\Container;
 use Illuminate\Support\ServiceProvider;

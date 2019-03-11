@@ -1,10 +1,10 @@
 <?php
 
-namespace Demo\Plugins\Commands;
+namespace Maneash\Plugins\Commands;
 
 use Illuminate\Console\Command;
-use Demo\Plugins\Exceptions\FileAlreadyExistException;
-use Demo\Plugins\Generators\FileGenerator;
+use Maneash\Plugins\Exceptions\FileAlreadyExistException;
+use Maneash\Plugins\Generators\FileGenerator;
 
 abstract class GeneratorCommand extends Command
 {
@@ -74,7 +74,7 @@ abstract class GeneratorCommand extends Command
     /**
      * Get class namespace.
      *
-     * @param \Demo\Plugins\Plugin $plugin
+     * @param \Maneash\Plugins\Plugin $plugin
      *
      * @return string
      */

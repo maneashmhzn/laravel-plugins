@@ -1,14 +1,14 @@
 <?php
 
-namespace Demo\Plugins\Commands;
+namespace Maneash\Plugins\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Support\Str;
-use Demo\Plugins\Contracts\RepositoryInterface;
-use Demo\Plugins\Plugin;
-use Demo\Plugins\Support\Config\GenerateConfigReader;
-use Demo\Plugins\Traits\PluginCommandTrait;
+use Maneash\Plugins\Contracts\RepositoryInterface;
+use Maneash\Plugins\Plugin;
+use Maneash\Plugins\Support\Config\GenerateConfigReader;
+use Maneash\Plugins\Traits\PluginCommandTrait;
 use RuntimeException;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Demo\Plugins\Providers;
+namespace Maneash\Plugins\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Demo\Plugins\Contracts\RepositoryInterface;
-use Demo\Plugins\Laravel\LaravelFileRepository;
+use Maneash\Plugins\Contracts\RepositoryInterface;
+use Maneash\Plugins\Laravel\LaravelFileRepository;
 
 class ContractsServiceProvider extends ServiceProvider
 {

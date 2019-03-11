@@ -44,7 +44,7 @@ All Notable changes to `laravel-plugins` will be documented in this file.
 
 ### Added
 
-- Laravel mix configuration (https://Demo.com/laravel-plugins/v3/basic-usage/compiling-assets)
+- Laravel mix configuration (https://Maneash.com/laravel-plugins/v3/basic-usage/compiling-assets)
 
 ### Changed
 
@@ -428,7 +428,7 @@ All Notable changes to `laravel-plugins` will be documented in this file.
 
 ### Fixed
 
-- Plugin generation namespace now works with `StudlyCase` ([Issue #14](https://github.com/Demo/laravel-plugins/issues/14))
+- Plugin generation namespace now works with `StudlyCase` ([Issue #14](https://github.com/Maneash/laravel-plugins/issues/14))
 - No plugin namespace fix (#13)
 
 ### Changed

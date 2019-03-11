@@ -1,9 +1,9 @@
 <?php
 
-namespace Demo\Plugins\Commands;
+namespace Maneash\Plugins\Commands;
 
 use Illuminate\Console\Command;
-use Demo\Plugins\Generators\PluginGenerator;
+use Maneash\Plugins\Generators\PluginGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

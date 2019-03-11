@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Generators;
+namespace Maneash\Plugins\Generators;
 
 abstract class Generator
 {

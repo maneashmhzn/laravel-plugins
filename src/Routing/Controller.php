@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Routing;
+namespace Maneash\Plugins\Routing;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

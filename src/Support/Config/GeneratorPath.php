@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Support\Config;
+namespace Maneash\Plugins\Support\Config;
 
 class GeneratorPath
 {

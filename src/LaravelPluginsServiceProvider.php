@@ -1,8 +1,8 @@
 <?php
 
-namespace Demo\Plugins;
+namespace Maneash\Plugins;
 
-use Demo\Plugins\Support\Stub;
+use Maneash\Plugins\Support\Stub;
 
 class LaravelPluginsServiceProvider extends PluginsServiceProvider
 {

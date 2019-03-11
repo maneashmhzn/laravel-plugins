@@ -1,10 +1,10 @@
 <?php
 
-namespace Demo\Plugins\Commands;
+namespace Maneash\Plugins\Commands;
 
 use Illuminate\Console\Command;
-use Demo\Plugins\Plugin;
-use Demo\Plugins\Publishing\AssetPublisher;
+use Maneash\Plugins\Plugin;
+use Maneash\Plugins\Publishing\AssetPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishCommand extends Command

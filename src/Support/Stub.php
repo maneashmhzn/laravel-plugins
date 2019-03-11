@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Support;
+namespace Maneash\Plugins\Support;
 
 class Stub
 {

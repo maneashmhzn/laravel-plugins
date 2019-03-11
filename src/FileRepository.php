@@ -1,16 +1,16 @@
 <?php
 
-namespace Demo\Plugins;
+namespace Maneash\Plugins;
 
 use Countable;
 use Illuminate\Container\Container;
 use Illuminate\Support\Str;
 use Illuminate\Support\Traits\Macroable;
-use Demo\Plugins\Contracts\RepositoryInterface;
-use Demo\Plugins\Exceptions\InvalidAssetPath;
-use Demo\Plugins\Exceptions\PluginNotFoundException;
-use Demo\Plugins\Process\Installer;
-use Demo\Plugins\Process\Updater;
+use Maneash\Plugins\Contracts\RepositoryInterface;
+use Maneash\Plugins\Exceptions\InvalidAssetPath;
+use Maneash\Plugins\Exceptions\PluginNotFoundException;
+use Maneash\Plugins\Process\Installer;
+use Maneash\Plugins\Process\Updater;
 
 abstract class FileRepository implements RepositoryInterface, Countable
 {
@@ -106,7 +106,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * @param Container $app
      * @param $name
      * @param $path
-     * @return \Demo\Plugins\Plugin
+     * @return \Maneash\Plugins\Plugin
      */
     abstract protected function createPlugin(...$args);
 
@@ -482,7 +482,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
     /**
      * Get plugin used for cli session.
      * @return string
-     * @throws \Demo\Plugins\Exceptions\PluginNotFoundException
+     * @throws \Maneash\Plugins\Exceptions\PluginNotFoundException
      */
     public function getUsedNow() : string
     {
@@ -555,7 +555,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * Enabling a specific plugin.
      * @param string $name
      * @return void
-     * @throws \Demo\Plugins\Exceptions\PluginNotFoundException
+     * @throws \Maneash\Plugins\Exceptions\PluginNotFoundException
      */
     public function enable($name)
     {
@@ -566,7 +566,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * Disabling a specific plugin.
      * @param string $name
      * @return void
-     * @throws \Demo\Plugins\Exceptions\PluginNotFoundException
+     * @throws \Maneash\Plugins\Exceptions\PluginNotFoundException
      */
     public function disable($name)
     {
@@ -577,7 +577,7 @@ abstract class FileRepository implements RepositoryInterface, Countable
      * Delete a specific plugin.
      * @param string $name
      * @return bool
-     * @throws \Demo\Plugins\Exceptions\PluginNotFoundException
+     * @throws \Maneash\Plugins\Exceptions\PluginNotFoundException
      */
     public function delete($name) : bool
     {

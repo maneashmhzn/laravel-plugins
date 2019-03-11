@@ -1,6 +1,6 @@
 <?php
 
-namespace Demo\Plugins\Traits;
+namespace Maneash\Plugins\Traits;
 
 trait CanClearPluginsCache
 {

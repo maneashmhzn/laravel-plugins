@@ -1,10 +1,10 @@
 <?php
 
-namespace Demo\Plugins\Commands;
+namespace Maneash\Plugins\Commands;
 
 use Illuminate\Console\Command;
-use Demo\Plugins\Migrations\Migrator;
-use Demo\Plugins\Publishing\MigrationPublisher;
+use Maneash\Plugins\Migrations\Migrator;
+use Maneash\Plugins\Publishing\MigrationPublisher;
 use Symfony\Component\Console\Input\InputArgument;
 
 class PublishMigrationCommand extends Command
@@ -44,7 +44,7 @@ class PublishMigrationCommand extends Command
     /**
      * Publish migration for the specified plugin.
      *
-     * @param \Demo\Plugins\Plugin $plugin
+     * @param \Maneash\Plugins\Plugin $plugin
      */
     public function publish($plugin)
     {

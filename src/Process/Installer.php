@@ -1,10 +1,10 @@
 <?php
 
-namespace Demo\Plugins\Process;
+namespace Maneash\Plugins\Process;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
-use Demo\Plugins\Contracts\RepositoryInterface;
+use Maneash\Plugins\Contracts\RepositoryInterface;
 use Symfony\Component\Process\Process;
 
 class Installer
@@ -25,7 +25,7 @@ class Installer
 
     /**
      * The plugin repository instance.
-     * @var \Demo\Plugins\Contracts\RepositoryInterface
+     * @var \Maneash\Plugins\Contracts\RepositoryInterface
      */
     protected $repository;
 
@@ -90,7 +90,7 @@ class Installer
 
     /**
      * Set the plugin repository instance.
-     * @param \Demo\Plugins\Contracts\RepositoryInterface $repository
+     * @param \Maneash\Plugins\Contracts\RepositoryInterface $repository
      * @return $this
      */
     public function setRepository(RepositoryInterface $repository)
